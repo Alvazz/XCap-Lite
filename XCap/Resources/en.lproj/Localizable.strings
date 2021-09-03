@@ -1,0 +1,73 @@
+"Camera.Disconnected" = "Camera disconnected.";
+
+"Camera.Error.Create_Snapshot_Failed" = "Error creating snapshot.";
+
+"Camera.Error.Recording_Failed" = "Failed to start recording.";
+
+"Camera.Invalid_Device.Message" = "Please check camera connection.";
+
+"Camera.Invalid_Device.Title" = "Unable to open the camera";
+
+"Camera.Title_Format" = "[Camera] %@";
+
+"Canvas.Menu.Add_Line" = "Add Center Line";
+
+"Canvas.Menu.Background" = "Background";
+
+"Canvas.Menu.Calibrate" = "Calibrate";
+
+"Canvas.Menu.Edit_Tag" = "Edit Tag";
+
+"Canvas.Menu.Edit_Text" = "Edit Text";
+
+"Canvas.Menu.Reset_Rotation" = "Reset Rotation";
+
+"Canvas.Object.Edit_Tag" = "Edit Tag";
+
+"Canvas.Object.Remove_Tag" = "Remove Tag";
+
+"Canvas.Selection_Tool" = "Selection Tool";
+
+"Common.Cancel" = "Cancel";
+
+"Common.Copy" = "Copy";
+
+"Common.Cut" = "Cut";
+
+"Common.Delete" = "Delete";
+
+"Common.Error.Write_File_Failed_Format" = "Error wrting file.(%@)";
+
+"Common.OK" = "OK";
+
+"Common.Paste" = "Paste";
+
+"Image.Error.Open_Image_Failed" = "Error opening image file.";
+
+"Image.Title_Format" = "[Image] %@";
+
+"Measurements.Title" = "Measurements";
+
+"Scale.Empty_Name" = "Scale name must not be empty.";
+
+"Scale.No_Calibration" = "No Calibration";
+
+"Scale.Save_Current_Scale.Placeholder" = "Name";
+
+"Scale.Save_Current_Scale.Title" = "Save current scale";
+
+"SourceError.captureFailed" = "Capture failed.";
+
+"SourceError.saliencyAnalyzingFailed" = "Couldn't find any object.";
+
+"Toolbar.Capture" = "Capture";
+
+"Toolbar.New_Window_With_Snapshot" = "Capture & Open";
+
+"Toolbar.Open" = "Open Camera";
+
+"Toolbar.Open_Image" = "Open…";
+
+"Toolbar.Preferences" = "Preferences";
+
+"Toolbar.Record" = "Record(No Graphics)";

@@ -1,0 +1,47 @@
+/* Class = "NSTextFieldCell"; title = "Calibration"; ObjectID = "6ys-8x-Aet"; */
+"6ys-8x-Aet.title" = "Calibration";
+
+/* Class = "NSButtonCell"; title = "Graphics"; ObjectID = "cdF-sh-SVS"; */
+"cdF-sh-SVS.title" = "Graphics";
+
+/* Class = "NSButtonCell"; title = "Tags"; ObjectID = "DiC-HM-GeJ"; */
+"DiC-HM-GeJ.title" = "Tags";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "e74-PK-h9M"; */
+"e74-PK-h9M.headerCell.title" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Text Editor"; ObjectID = "GLM-UP-sNE"; */
+"GLM-UP-sNE.title" = "Text Editor";
+
+/* Class = "NSTextFieldCell"; title = "Format"; ObjectID = "jm7-Pi-bIq"; */
+"jm7-Pi-bIq.title" = "Format";
+
+/* Class = "NSTextFieldCell"; title = "Actual Length"; ObjectID = "PHt-Yo-hFp"; */
+"PHt-Yo-hFp.title" = "Actual Length";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Name"; ObjectID = "S35-dg-ob5"; */
+"S35-dg-ob5.placeholderString" = "Name";
+
+/* Class = "NSTextFieldCell"; title = "Saved Scales"; ObjectID = "uVB-51-HWF"; */
+"uVB-51-HWF.title" = "Saved Scales";
+
+/* Class = "NSTextFieldCell"; title = "Unit"; ObjectID = "Vvq-gg-ykn"; */
+"Vvq-gg-ykn.title" = "Unit";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "YxG-qZ-Xge"; */
+"YxG-qZ-Xge.headerCell.title" = "Info";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "ZGf-I2-Zwm"; */
+"ZGf-I2-Zwm.title" = "Save";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "l6w-yU-atf"; */
+"l6w-yU-atf.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "pi1-N8-Pvo"; */
+"pi1-N8-Pvo.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "<Value>"; ObjectID = "sVh-zp-LZV"; */
+"sVh-zp-LZV.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "<Name>"; ObjectID = "uNm-u9-cfx"; */
+"uNm-u9-cfx.title" = "";

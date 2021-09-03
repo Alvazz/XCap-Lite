@@ -1,0 +1,329 @@
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "1tW-ID-8lF"; */
+"1tW-ID-8lF.title" = "顏色";
+
+/* Class = "NSMenuItem"; title = "XCap"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "XCap";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen"; ObjectID = "4J7-dP-txa"; */
+"4J7-dP-txa.title" = "進入全螢幕";
+
+/* Class = "NSButtonCell"; title = "Vertical"; ObjectID = "4R4-ig-BXi"; */
+"4R4-ig-BXi.title" = "垂直";
+
+/* Class = "NSMenuItem"; title = "Quit XCap"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "結束 XCap";
+
+/* Class = "NSButtonCell"; title = "Reset to Default"; ObjectID = "5Ah-vN-ixf"; */
+"5Ah-vN-ixf.title" = "回復預設值";
+
+/* Class = "NSMenuItem"; title = "About XCap"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "關於 XCap";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
+"5QF-Oa-p0T.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "重做";
+
+/* Class = "NSTextFieldCell"; title = "<Magnification>"; ObjectID = "6La-lv-bKF"; */
+"6La-lv-bKF.title" = "<Magnification>";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Auto Generate Tags"; ObjectID = "6pt-Be-O4w"; */
+"6pt-Be-O4w.ibShadowedToolTip" = "自動產生標籤";
+
+/* Class = "NSMenuItem"; title = "Calibrate"; ObjectID = "8Ps-k7-eg6"; */
+"8Ps-k7-eg6.title" = "校正";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Save Current Scale"; ObjectID = "9P8-j1-7Uo"; */
+"9P8-j1-7Uo.ibShadowedToolTip" = "儲存目前的比例尺";
+
+/* Class = "NSTextFieldCell"; title = "System Preferences > Security & Privacy > Privacy > Camera"; ObjectID = "AB1-GJ-gF1"; */
+"AB1-GJ-gF1.title" = " > 系統偏好設定 > 安全性與隱私權 > 隱私權 > 攝影機";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "視窗";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "Ave-B7-d8D"; */
+"Ave-B7-d8D.title" = "結束程式";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "bib-Uj-vzu"; */
+"bib-Uj-vzu.title" = "檔案";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "偏好設定…";
+
+/* Class = "NSTextFieldCell"; title = "<Value>"; ObjectID = "BTv-7O-ZbM"; */
+"BTv-7O-ZbM.title" = "<Value>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Unit"; ObjectID = "Bve-wf-OT2"; */
+"Bve-wf-OT2.headerCell.title" = "單位";
+
+/* Class = "NSSegmentedCell"; bYf-R4-qUU.ibShadowedLabels[0] = "M"; ObjectID = "bYf-R4-qUU"; */
+"bYf-R4-qUU.ibShadowedLabels[0]" = "M";
+
+/* Class = "NSSegmentedCell"; bYf-R4-qUU.ibShadowedLabels[1] = "Auto"; ObjectID = "bYf-R4-qUU"; */
+"bYf-R4-qUU.ibShadowedLabels[1]" = "Auto";
+
+/* Class = "NSSegmentedCell"; bYf-R4-qUU.ibShadowedLabels[2] = "S"; ObjectID = "bYf-R4-qUU"; */
+"bYf-R4-qUU.ibShadowedLabels[2]" = "S";
+
+/* Class = "NSSegmentedCell"; bYf-R4-qUU.ibShadowedLabels[3] = "A"; ObjectID = "bYf-R4-qUU"; */
+"bYf-R4-qUU.ibShadowedLabels[3]" = "A";
+
+/* Class = "NSTextFieldCell"; title = "The user is not allowed to access media capture devices"; ObjectID = "CEn-fh-mjJ"; */
+"CEn-fh-mjJ.title" = "此使用者權限受到限制，無法取用攝影機。";
+
+/* Class = "NSTableColumn"; headerCell.title = "Manufacturer"; ObjectID = "CY7-pf-c73"; */
+"CY7-pf-c73.headerCell.title" = "製造商";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "d0H-LN-kVI"; */
+"d0H-LN-kVI.title" = "自動";
+
+/* Class = "NSTextFieldCell"; title = "<Manufacturer>"; ObjectID = "D70-hP-w2y"; */
+"D70-hP-w2y.title" = "<Manufacturer>";
+
+/* Class = "NSTextFieldCell"; title = "Brightness"; ObjectID = "diJ-rv-nWn"; */
+"diJ-rv-nWn.title" = "亮度";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "dMs-cI-mzQ"; */
+"dMs-cI-mzQ.title" = "檔案";
+
+/* Class = "NSTableColumn"; headerCell.title = "Measurand"; ObjectID = "dPQ-fj-Oj6"; */
+"dPQ-fj-Oj6.headerCell.title" = "測量對象";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "還原";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "DVo-aG-piG"; */
+"DVo-aG-piG.title" = "關閉視窗";
+
+/* Class = "NSTextFieldCell"; title = "Power-Line Frequency"; ObjectID = "e7i-1I-OKi"; */
+"e7i-1I-OKi.title" = "電源頻率";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "eB1-jD-YFR"; */
+"eB1-jD-YFR.title" = "輔助說明";
+
+/* Class = "NSMenuItem"; title = "Devices"; ObjectID = "ecs-9r-1iw"; */
+"ecs-9r-1iw.title" = "裝置列表";
+
+/* Class = "NSButtonCell"; title = "Horizontal"; ObjectID = "eEB-iF-kJg"; */
+"eEB-iF-kJg.title" = "水平";
+
+/* Class = "NSTextFieldCell"; title = "Line Weight"; ObjectID = "For-FJ-MS1"; */
+"For-FJ-MS1.title" = "線寬";
+
+/* Class = "NSTextFieldCell"; title = "Backlight Compensation"; ObjectID = "G3S-bD-N29"; */
+"G3S-bD-N29.title" = "背光補償";
+
+/* Class = "NSTextFieldCell"; title = "White Balance"; ObjectID = "gcB-VH-ine"; */
+"gcB-VH-ine.title" = "白平衡";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Magnification"; ObjectID = "GcR-ZX-4Sw"; */
+"GcR-ZX-4Sw.ibShadowedToolTip" = "放大倍率";
+
+/* Class = "NSTextFieldCell"; title = "<REC>"; ObjectID = "GGk-KD-tP5"; */
+"GGk-KD-tP5.title" = "<REC>";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "H8h-7b-M4v"; */
+"H8h-7b-M4v.title" = "顯示方式";
+
+/* Class = "NSTextFieldCell"; title = "Display"; ObjectID = "hAb-Ou-Bo5"; */
+"hAb-Ou-Bo5.title" = "影像";
+
+/* Class = "NSTextFieldCell"; title = "Please check camera permissions:"; ObjectID = "hsB-El-yEo"; */
+"hsB-El-yEo.title" = "您可在偏好設定中改變這項設定：";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Text Settings"; ObjectID = "hvw-GB-m1S"; */
+"hvw-GB-m1S.ibShadowedToolTip" = "文字設定";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "HyV-fh-RgO"; */
+"HyV-fh-RgO.title" = "顯示方式";
+
+/* Class = "NSTextFieldCell"; title = "Contrast"; ObjectID = "Iyo-hJ-AIF"; */
+"Iyo-hJ-AIF.title" = "對比度";
+
+/* Class = "NSColorWell"; ibShadowedToolTip = "Stroke Color"; ObjectID = "j0A-PD-nZQ"; */
+"j0A-PD-nZQ.ibShadowedToolTip" = "邊線顏色";
+
+/* Class = "NSButtonCell"; title = "Open Preferences"; ObjectID = "j3O-Qh-47l"; */
+"j3O-Qh-47l.title" = "開啟偏好設定";
+
+/* Class = "NSTextFieldCell"; title = "XCap doesn't have access to your cameras"; ObjectID = "j3z-gP-tCb"; */
+"j3z-gP-tCb.title" = "XCap 目前無法取用攝影機";
+
+/* Class = "NSTextFieldCell"; title = "<Unit>"; ObjectID = "JBZ-DS-DfC"; */
+"JBZ-DS-DfC.title" = "<Unit>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "jkD-BS-rkO"; */
+"jkD-BS-rkO.headerCell.title" = "數值";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "jQx-GE-fu3"; */
+"jQx-GE-fu3.title" = "開啟圖片…";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "顯示全部";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "KJc-2F-pSA"; */
+"KJc-2F-pSA.title" = "自動";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "將此程式所有視窗移至最前";
+
+/* Class = "NSTextFieldCell"; title = "Gain"; ObjectID = "Lka-Vn-K8z"; */
+"Lka-Vn-K8z.title" = "增益";
+
+/* Class = "NSTextFieldCell"; title = "Background"; ObjectID = "lU5-mO-xdW"; */
+"lU5-mO-xdW.title" = "背景";
+
+/* Class = "NSTextFieldCell"; title = "Unit"; ObjectID = "mbG-7D-xyo"; */
+"mbG-7D-xyo.title" = "單位";
+
+/* Class = "NSButtonCell"; title = "Crosshair"; ObjectID = "MIl-xw-aqn"; */
+"MIl-xw-aqn.title" = "十字線";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Line Weight"; ObjectID = "my9-SF-5w2"; */
+"my9-SF-5w2.ibShadowedToolTip" = "線寬";
+
+/* Class = "NSColorWell"; ibShadowedToolTip = "Fill Color"; ObjectID = "NBk-W4-4dz"; */
+"NBk-W4-4dz.ibShadowedToolTip" = "填充顏色";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "nHW-2Q-4xX"; */
+"nHW-2Q-4xX.title" = "輔助說明";
+
+/* Class = "NSTextFieldCell"; title = "Gamma"; ObjectID = "OjB-vE-zZn"; */
+"OjB-vE-zZn.title" = "伽馬";
+
+/* Class = "NSMenuItem"; title = "Hide XCap"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "隱藏 XCap";
+
+/* Class = "NSMenuItem"; title = "Application Help"; ObjectID = "ONb-a3-Bmj"; */
+"ONb-a3-Bmj.title" = "XCap 輔助說明";
+
+/* Class = "NSTextFieldCell"; title = "Focus"; ObjectID = "OrI-s0-MHD"; */
+"OrI-s0-MHD.title" = "焦距";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "最小化";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
+"pa3-QI-u2k.title" = "刪除";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "PpA-kA-4yS"; */
+"PpA-kA-4yS.title" = "結束程式";
+
+/* Class = "NSMenuItem"; title = "Capture"; ObjectID = "pxx-59-PXV"; */
+"pxx-59-PXV.title" = "截圖";
+
+/* Class = "NSTextFieldCell"; title = "<Name>"; ObjectID = "q6x-wE-qe4"; */
+"q6x-wE-qe4.title" = "<Name>";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "Qr9-N8-Xn4"; */
+"Qr9-N8-Xn4.title" = "解析度";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "縮放";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "R63-Jg-56f"; */
+"R63-Jg-56f.headerCell.title" = "名稱";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "全選";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Measurements Window"; ObjectID = "rxN-5h-JQi"; */
+"rxN-5h-JQi.ibShadowedToolTip" = "開啟量測列表";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Collapse All"; ObjectID = "SfS-n5-hWM"; */
+"SfS-n5-hWM.ibShadowedToolTip" = "收合全部";
+
+/* Class = "NSSegmentedCell"; ssY-qu-fee.ibShadowedLabels[0] = "Disable"; ObjectID = "ssY-qu-fee"; */
+"ssY-qu-fee.ibShadowedLabels[0]" = "關";
+
+/* Class = "NSSegmentedCell"; ssY-qu-fee.ibShadowedLabels[1] = "50 Hz"; ObjectID = "ssY-qu-fee"; */
+"ssY-qu-fee.ibShadowedLabels[1]" = "50 Hz";
+
+/* Class = "NSSegmentedCell"; ssY-qu-fee.ibShadowedLabels[2] = "60 Hz"; ObjectID = "ssY-qu-fee"; */
+"ssY-qu-fee.ibShadowedLabels[2]" = "60 Hz";
+
+/* Class = "NSSegmentedCell"; ssY-qu-fee.ibShadowedLabels[3] = "Auto"; ObjectID = "ssY-qu-fee"; */
+"ssY-qu-fee.ibShadowedLabels[3]" = "自動";
+
+/* Class = "NSTextFieldCell"; title = "<Value Type>"; ObjectID = "syp-em-fh7"; */
+"syp-em-fh7.title" = "<Value Type>";
+
+/* Class = "NSTextFieldCell"; title = "Hue"; ObjectID = "t58-OZ-n8u"; */
+"t58-OZ-n8u.title" = "色調";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "視窗";
+
+/* Class = "NSTextFieldCell"; title = "Sharpness"; ObjectID = "U3X-ES-h0C"; */
+"U3X-ES-h0C.title" = "銳利度";
+
+/* Class = "NSTextFieldCell"; title = "Saturation"; ObjectID = "U85-zD-BIU"; */
+"U85-zD-BIU.title" = "飽和度";
+
+/* Class = "NSTextFieldCell"; title = "Flip"; ObjectID = "ubV-3H-ypS"; */
+"ubV-3H-ypS.title" = "翻轉";
+
+/* Class = "NSMenuItem"; title = "Capture & Open"; ObjectID = "ULo-hh-FMS"; */
+"ULo-hh-FMS.title" = "截圖並開啟";
+
+/* Class = "NSMenu"; title = "XCap"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "XCap";
+
+/* Class = "NSTextFieldCell"; title = "Auto Exposure Mode"; ObjectID = "UR7-Dg-zhP"; */
+"UR7-Dg-zhP.title" = "自動曝光模式";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "Measurements"; ObjectID = "v65-VF-2rn"; */
+"v65-VF-2rn.title" = "量測列表";
+
+/* Class = "NSTextFieldCell"; placeholderString = "None"; ObjectID = "vdK-10-0SN"; */
+"vdK-10-0SN.placeholderString" = "無";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隱藏其他";
+
+/* Class = "NSTextFieldCell"; title = "Basic"; ObjectID = "Vfk-H0-5wF"; */
+"Vfk-H0-5wF.title" = "基本設定";
+
+/* Class = "NSTextFieldCell"; title = "Exposure Time"; ObjectID = "VNg-2D-NZI"; */
+"VNg-2D-NZI.title" = "曝光時間";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "編輯";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Scale List"; ObjectID = "WAu-0F-dKf"; */
+"WAu-0F-dKf.ibShadowedToolTip" = "開啟比例尺列表";
+
+/* Class = "NSTextFieldCell"; title = "<Header>"; ObjectID = "wws-sv-zzl"; */
+"wws-sv-zzl.title" = "<Header>";
+
+/* Class = "NSTextFieldCell"; title = "Measuring"; ObjectID = "WYZ-mt-nlj"; */
+"WYZ-mt-nlj.title" = "量測";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "拷貝";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "xyC-Ep-wJj"; */
+"xyC-Ep-wJj.title" = "顏色";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Expand All"; ObjectID = "z3m-qK-W1B"; */
+"z3m-qK-W1B.ibShadowedToolTip" = "展開全部";
+
+/* Class = "NSSegmentedCell"; ZV1-Xs-kue.ibShadowedLabels[0] = "OFF"; ObjectID = "ZV1-Xs-kue"; */
+"ZV1-Xs-kue.ibShadowedLabels[0]" = "關";
+
+/* Class = "NSSegmentedCell"; ZV1-Xs-kue.ibShadowedLabels[1] = "ON"; ObjectID = "ZV1-Xs-kue"; */
+"ZV1-Xs-kue.ibShadowedLabels[1]" = "開";
+
+/* Class = "NSButtonCell"; title = "<Scale>"; ObjectID = "bGC-n6-vTy"; */
+"bGC-n6-vTy.title" = "";

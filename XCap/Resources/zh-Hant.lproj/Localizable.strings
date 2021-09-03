@@ -1,0 +1,73 @@
+"Camera.Disconnected" = "影像來源已斷線。";
+
+"Camera.Error.Create_Snapshot_Failed" = "無法建立圖片。";
+
+"Camera.Error.Recording_Failed" = "錄影時發生錯誤。";
+
+"Camera.Invalid_Device.Message" = "請檢查攝影機是否連接。";
+
+"Camera.Invalid_Device.Title" = "無法開啟影像來源。";
+
+"Camera.Title_Format" = "[攝影機] %@";
+
+"Canvas.Menu.Add_Line" = "新增連線";
+
+"Canvas.Menu.Background" = "填充";
+
+"Canvas.Menu.Calibrate" = "校正";
+
+"Canvas.Menu.Edit_Tag" = "編輯標籤";
+
+"Canvas.Menu.Edit_Text" = "編輯文字";
+
+"Canvas.Menu.Reset_Rotation" = "重設旋轉角度";
+
+"Canvas.Object.Edit_Tag" = "編輯標籤";
+
+"Canvas.Object.Remove_Tag" = "移除標籤";
+
+"Canvas.Selection_Tool" = "選取工具";
+
+"Common.Cancel" = "取消";
+
+"Common.Copy" = "拷貝";
+
+"Common.Cut" = "剪下";
+
+"Common.Delete" = "刪除";
+
+"Common.Error.Write_File_Failed_Format" = "儲存檔案時發生錯誤。(%@)";
+
+"Common.OK" = "好";
+
+"Common.Paste" = "貼上";
+
+"Image.Error.Open_Image_Failed" = "開啟圖檔失敗。";
+
+"Image.Title_Format" = "[圖片] %@";
+
+"Measurements.Title" = "量測列表";
+
+"Scale.Empty_Name" = "比例尺名稱不能為空。";
+
+"Scale.No_Calibration" = "未校正";
+
+"Scale.Save_Current_Scale.Placeholder" = "名稱";
+
+"Scale.Save_Current_Scale.Title" = "儲存目前的比例尺";
+
+"SourceError.captureFailed" = "擷取圖片失敗。";
+
+"SourceError.saliencyAnalyzingFailed" = "未偵測到物體。";
+
+"Toolbar.Capture" = "截圖";
+
+"Toolbar.New_Window_With_Snapshot" = "截圖並開啟";
+
+"Toolbar.Open" = "開啟攝影機";
+
+"Toolbar.Open_Image" = "開啟圖片…";
+
+"Toolbar.Preferences" = "偏好設定";
+
+"Toolbar.Record" = "錄影(不包含繪圖)";

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  XCap
+
+  Created by chen on 2021/5/22.
+  
+*/
+
+"NSCameraUsageDescription" = "XCap needs access to your camera to preview video.";

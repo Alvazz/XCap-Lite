@@ -1,0 +1,89 @@
+"DisplayMode.Actual_Size" = "實際大小";
+
+"DisplayMode.Fill" = "填滿視窗";
+
+"DisplayMode.Mode1" = "125%";
+
+"DisplayMode.Mode2" = "150%";
+
+"DisplayMode.Mode3" = "175%";
+
+"DisplayMode.Mode4" = "200%";
+
+"HelpCategory.Calibration" = "校正";
+
+"HelpCategory.Calibration.Detail" = "使用「線段」或「圓形（直徑）」來執行校正及新增比例尺。";
+
+"HelpCategory.Rotation" = "旋轉物件";
+
+"HelpCategory.Rotation.Detail" = "按住 ⌥(option) 以顯示所選物件的旋鈕，放開則會隱藏。";
+
+"HelpCategory.Tags" = "物件標籤";
+
+"HelpCategory.Tags.Detail" = "按住 ⌃(control) 及 ⌘(command) 以顯示所選物件的標籤，放開則會隱藏。";
+
+"Measurand.angle" = "角度(θ)";
+
+"Measurand.angle1" = "角度(180°-θ)";
+
+"Measurand.angle2" = "角度(360°-θ)";
+
+"Measurand.area" = "面積";
+
+"Measurand.circumference" = "圓周";
+
+"Measurand.diameter" = "直徑";
+
+"Measurand.height" = "高";
+
+"Measurand.length" = "長度";
+
+"Measurand.perimeter" = "周長";
+
+"Measurand.radius" = "半徑";
+
+"Measurand.sum" = "總和";
+
+"Measurand.width" = "寬";
+
+"MeasurementTab.general" = "量測結果";
+
+"MeasurementTool.angle" = "角度";
+
+"MeasurementTool.angle.toolTip" = "角度 (使用兩線段)";
+
+"MeasurementTool.circle" = "圓形";
+
+"MeasurementTool.circle.toolTip" = "圓形 (3點, 校正工具)";
+
+"MeasurementTool.lineSegment" = "線段";
+
+"MeasurementTool.lineSegment.toolTip" = "線段 (校正工具)";
+
+"MeasurementTool.pencil" = "鉛筆";
+
+"MeasurementTool.pencil.toolTip" = "鉛筆";
+
+"MeasurementTool.polygon" = "多邊形";
+
+"MeasurementTool.polygon.toolTip" = "多邊形";
+
+"MeasurementTool.polyline" = "折線";
+
+"MeasurementTool.polyline.toolTip" = "折線";
+
+"MeasurementTool.rectangle" = "矩形";
+
+"MeasurementTool.rectangle.toolTip" = "矩形";
+
+"MeasurementTool.square" = "正方形";
+
+"MeasurementTool.square.toolTip" = "正方形";
+
+"MeasurementTool.textbox" = "文字方塊";
+
+"MeasurementTool.textbox.toolTip" = "文字方塊";
+
+"SettingsTab.advanced" = "進階";
+
+"SettingsTab.general" = "一般";

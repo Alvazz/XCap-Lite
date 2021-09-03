@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19158" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19158"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Help View Controller-->
+        <scene sceneID="jfs-uZ-BaT">
+            <objects>
+                <customObject id="DUV-01-COd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <viewController id="rot-L2-1l9" customClass="HelpViewController" customModule="XCap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="tdw-Iw-Jgk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v7a-MN-UCe">
+                                <rect key="frame" x="5" y="368" width="591" height="25"/>
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="fuF-x9-meB">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="C2x-SY-XYc"/>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="categoryPopUpButtonAction:" target="rot-L2-1l9" id="fUF-N5-uFS"/>
+                                </connections>
+                            </popUpButton>
+                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="cJT-Gd-kaY">
+                                <rect key="frame" x="0.0" y="361" width="600" height="5"/>
+                            </box>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="ycN-aC-atf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="363"/>
+                                <subviews>
+                                    <stackView distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZ8-ly-tze">
+                                        <rect key="frame" x="8" y="8" width="584" height="347"/>
+                                        <subviews>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8HK-yE-SbW">
+                                                <rect key="frame" x="-2" y="331" width="56" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="&lt;Detail&gt;" id="nnt-1u-1S0">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="fDR-m8-UJ6">
+                                                <rect key="frame" x="0.0" y="0.0" width="584" height="323"/>
+                                            </customView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="fDR-m8-UJ6" secondAttribute="trailing" id="Mhq-4x-V1P"/>
+                                        </constraints>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UZ8-ly-tze" firstAttribute="top" secondItem="ycN-aC-atf" secondAttribute="top" constant="8" id="FYq-F9-4Ay"/>
+                                    <constraint firstAttribute="trailing" secondItem="UZ8-ly-tze" secondAttribute="trailing" constant="8" id="Kp1-iC-4a1"/>
+                                    <constraint firstAttribute="bottom" secondItem="UZ8-ly-tze" secondAttribute="bottom" constant="8" id="MNz-Ao-eqU"/>
+                                    <constraint firstItem="UZ8-ly-tze" firstAttribute="leading" secondItem="ycN-aC-atf" secondAttribute="leading" constant="8" id="brI-4c-szs"/>
+                                </constraints>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ycN-aC-atf" secondAttribute="trailing" id="4SV-ae-jat"/>
+                            <constraint firstItem="v7a-MN-UCe" firstAttribute="leading" secondItem="tdw-Iw-Jgk" secondAttribute="leading" constant="8" id="K0p-7u-sp2"/>
+                            <constraint firstAttribute="bottom" secondItem="ycN-aC-atf" secondAttribute="bottom" id="QMK-lJ-k7i"/>
+                            <constraint firstItem="ycN-aC-atf" firstAttribute="leading" secondItem="tdw-Iw-Jgk" secondAttribute="leading" id="Td4-00-XU9"/>
+                            <constraint firstItem="cJT-Gd-kaY" firstAttribute="leading" secondItem="tdw-Iw-Jgk" secondAttribute="leading" id="VJQ-gD-LVi"/>
+                            <constraint firstAttribute="trailing" secondItem="cJT-Gd-kaY" secondAttribute="trailing" id="VuH-mV-veZ"/>
+                            <constraint firstItem="v7a-MN-UCe" firstAttribute="top" secondItem="tdw-Iw-Jgk" secondAttribute="top" constant="8" id="Xwl-F4-K9g"/>
+                            <constraint firstItem="cJT-Gd-kaY" firstAttribute="top" secondItem="v7a-MN-UCe" secondAttribute="bottom" constant="8" id="d4U-Xh-UbH"/>
+                            <constraint firstAttribute="trailing" secondItem="v7a-MN-UCe" secondAttribute="trailing" constant="8" id="j35-mk-vSf"/>
+                            <constraint firstItem="ycN-aC-atf" firstAttribute="top" secondItem="cJT-Gd-kaY" secondAttribute="bottom" id="mCn-Fx-2TW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="categoryPopUpButton" destination="v7a-MN-UCe" id="fSY-IV-OfT"/>
+                        <outlet property="detailLabel" destination="8HK-yE-SbW" id="bot-n8-LOh"/>
+                        <outlet property="imageView" destination="fDR-m8-UJ6" id="hgz-00-uXU"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1191" y="634"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="0mW-Y5-0Rr">
+            <objects>
+                <windowController storyboardIdentifier="HelpWindowController" id="Ma2-35-wor" customClass="HelpWindowController" customModule="XCap" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="XCap Help" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" id="fKJ-FM-Mn0">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="294" y="313" width="600" height="400"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+                        <value key="minSize" type="size" width="600" height="400"/>
+                        <value key="maxSize" type="size" width="900" height="600"/>
+                        <view key="contentView" id="UwN-ZD-4Tw">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="Ma2-35-wor" id="Va4-4s-8T9"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="rot-L2-1l9" kind="relationship" relationship="window.shadowedContentViewController" id="Rd5-Mo-COJ"/>
+                    </connections>
+                </windowController>
+                <customObject id="lfc-4K-yN7" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1191" y="87"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="DoH-XV-vCg">
+            <objects>
+                <viewController id="gjL-Tr-XVS" customClass="AboutViewController" customModule="XCap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="0oX-fm-Qg3">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <visualEffectView blendingMode="behindWindow" material="underWindowBackground" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="KU9-wn-ofW">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                <subviews>
+                                    <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pWQ-DN-AZh">
+                                        <rect key="frame" x="6" y="6" width="288" height="269"/>
+                                        <subviews>
+                                            <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P12-CS-mcJ">
+                                                <rect key="frame" x="79" y="59" width="130" height="210"/>
+                                                <subviews>
+                                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="54f-NO-1X7">
+                                                        <rect key="frame" x="0.0" y="80" width="130" height="130"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="130" id="1kb-ob-UWU"/>
+                                                            <constraint firstAttribute="width" secondItem="54f-NO-1X7" secondAttribute="height" multiplier="1:1" id="UGG-Qs-MTq"/>
+                                                        </constraints>
+                                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSApplicationIcon" id="GDG-4g-cyh"/>
+                                                    </imageView>
+                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cwt-7r-fas">
+                                                        <rect key="frame" x="9" y="22" width="112" height="52"/>
+                                                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="XCap" id="qtD-6A-puj">
+                                                            <font key="font" metaFont="system" size="44"/>
+                                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <textField wantsLayer="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="39E-kd-Hpu">
+                                                        <rect key="frame" x="32" y="0.0" width="66" height="16"/>
+                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="&lt;Version&gt;" id="P87-Q9-nWG">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                </subviews>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="pjN-qQ-OjG">
+                                                <rect key="frame" x="96" y="50" width="96" height="5"/>
+                                            </box>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Tl-Vc-mhE">
+                                                <rect key="frame" x="56" y="0.0" width="176" height="46"/>
+                                                <subviews>
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="utV-0s-4aH">
+                                                        <rect key="frame" x="0.0" y="26" width="176" height="20"/>
+                                                        <subviews>
+                                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xwk-RP-1Yu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="Dcc-Nt-2je"/>
+                                                                    <constraint firstAttribute="width" secondItem="xwk-RP-1Yu" secondAttribute="height" multiplier="1:1" id="NWm-7b-x3H"/>
+                                                                </constraints>
+                                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="github" id="R5A-U2-wBg"/>
+                                                            </imageView>
+                                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gz6-Hb-EY7" customClass="LinkButton" customModule="XCap" customModuleProvider="target">
+                                                                <rect key="frame" x="20" y="0.0" width="156" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="agD-sp-5kF"/>
+                                                                </constraints>
+                                                                <buttonCell key="cell" type="bevel" title="https://github.com/scchn" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="Ayi-Gg-YD1">
+                                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                    <font key="font" metaFont="system"/>
+                                                                </buttonCell>
+                                                                <color key="contentTintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
+                                                                <connections>
+                                                                    <action selector="contectButtonAction:" target="gjL-Tr-XVS" id="wMq-Mc-1U7"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RHe-gF-rpu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="20"/>
+                                                        <subviews>
+                                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W4e-31-l3k">
+                                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="VBM-sg-USK"/>
+                                                                    <constraint firstAttribute="width" secondItem="W4e-31-l3k" secondAttribute="height" multiplier="1:1" id="n0l-2T-lpE"/>
+                                                                </constraints>
+                                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icons8" id="mXX-Ug-LEl"/>
+                                                            </imageView>
+                                                            <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wW8-1F-52G">
+                                                                <rect key="frame" x="22" y="2" width="97" height="16"/>
+                                                                <subviews>
+                                                                    <textField wantsLayer="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RNZ-JW-2G0">
+                                                                        <rect key="frame" x="-2" y="0.0" width="55" height="16"/>
+                                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Icons by" id="vc7-1p-WAS">
+                                                                            <font key="font" usesAppearanceFont="YES"/>
+                                                                            <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                        </textFieldCell>
+                                                                    </textField>
+                                                                    <button wantsLayer="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6NW-jI-yLI" customClass="LinkButton" customModule="XCap" customModuleProvider="target">
+                                                                        <rect key="frame" x="51" y="0.0" width="46" height="16"/>
+                                                                        <buttonCell key="cell" type="bevel" title="Icons8" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="3iZ-Th-iw2">
+                                                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                            <font key="font" metaFont="system"/>
+                                                                        </buttonCell>
+                                                                        <color key="contentTintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="string" keyPath="url" value="https://icons8.com"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </button>
+                                                                </subviews>
+                                                                <visibilityPriorities>
+                                                                    <integer value="1000"/>
+                                                                    <integer value="1000"/>
+                                                                </visibilityPriorities>
+                                                                <customSpacing>
+                                                                    <real value="3.4028234663852886e+38"/>
+                                                                    <real value="3.4028234663852886e+38"/>
+                                                                </customSpacing>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
+                                                </subviews>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pWQ-DN-AZh" firstAttribute="width" secondItem="KU9-wn-ofW" secondAttribute="width" constant="-12" id="GdP-Mo-IL7"/>
+                                    <constraint firstAttribute="bottom" secondItem="pWQ-DN-AZh" secondAttribute="bottom" constant="6" id="hhM-Gc-LI3"/>
+                                    <constraint firstItem="pWQ-DN-AZh" firstAttribute="centerX" secondItem="KU9-wn-ofW" secondAttribute="centerX" id="l5a-hn-PYD"/>
+                                </constraints>
+                            </visualEffectView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="KU9-wn-ofW" secondAttribute="bottom" id="P0K-0G-NCQ"/>
+                            <constraint firstItem="KU9-wn-ofW" firstAttribute="leading" secondItem="0oX-fm-Qg3" secondAttribute="leading" id="cfM-et-YvU"/>
+                            <constraint firstItem="KU9-wn-ofW" firstAttribute="top" secondItem="0oX-fm-Qg3" secondAttribute="top" id="d7d-7K-hJG"/>
+                            <constraint firstAttribute="trailing" secondItem="KU9-wn-ofW" secondAttribute="trailing" id="hBD-SD-Mcq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="versionLabel" destination="39E-kd-Hpu" id="gDZ-t0-UoZ"/>
+                    </connections>
+                </viewController>
+                <customObject id="gO8-yA-KwF" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1838" y="584"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="USZ-hI-M9Q">
+            <objects>
+                <windowController storyboardIdentifier="AboutWindowController" showSeguePresentationStyle="single" id="1gH-dy-C5x" customClass="AboutWindowController" customModule="XCap" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="vhn-BC-QFq">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
+                        <rect key="contentRect" x="294" y="313" width="300" height="300"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+                        <value key="minSize" type="size" width="300" height="300"/>
+                        <value key="maxSize" type="size" width="300" height="300"/>
+                        <view key="contentView" id="rEL-5i-4JW">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="1gH-dy-C5x" id="R1c-4Z-wgd"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="gjL-Tr-XVS" kind="relationship" relationship="window.shadowedContentViewController" id="pWh-Y3-swS"/>
+                    </connections>
+                </windowController>
+                <customObject id="aTJ-h4-Uat" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1838" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NSApplicationIcon" width="32" height="32"/>
+        <image name="github" width="64" height="64"/>
+        <image name="icons8" width="64" height="64"/>
+    </resources>
+</document>

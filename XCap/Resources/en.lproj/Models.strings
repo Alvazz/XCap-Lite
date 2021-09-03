@@ -1,0 +1,89 @@
+"DisplayMode.Actual_Size" = "Actual Size";
+
+"DisplayMode.Fill" = "Fill Window";
+
+"DisplayMode.Mode1" = "125%";
+
+"DisplayMode.Mode2" = "150%";
+
+"DisplayMode.Mode3" = "175%";
+
+"DisplayMode.Mode4" = "200%";
+
+"HelpCategory.Calibration" = "Calibration";
+
+"HelpCategory.Calibration.Detail" = "Use \"Line Segment\" or \"Circle(Diameter)\" to calibrate and save scale.";
+
+"HelpCategory.Rotation" = "Rotation";
+
+"HelpCategory.Rotation.Detail" = "Press and hold ⌥(option) to show the rotator of the selected object and release to hide.";
+
+"HelpCategory.Tags" = "Tags";
+
+"HelpCategory.Tags.Detail" = "Press and hold ⌃(Control) and ⌘(Command) to show object tag.";
+
+"Measurand.angle" = "Angle(θ)";
+
+"Measurand.angle1" = "Angle(180°-θ)";
+
+"Measurand.angle2" = "Angle(360°-θ)";
+
+"Measurand.area" = "Area";
+
+"Measurand.circumference" = "Circumference";
+
+"Measurand.diameter" = "Diameter";
+
+"Measurand.height" = "Height";
+
+"Measurand.length" = "Length";
+
+"Measurand.perimeter" = "Perimeter";
+
+"Measurand.radius" = "Radius";
+
+"Measurand.sum" = "SUM";
+
+"Measurand.width" = "Width";
+
+"MeasurementTab.general" = "Measurements";
+
+"MeasurementTool.angle" = "Angle";
+
+"MeasurementTool.angle.toolTip" = "Angle (By 2 lines)";
+
+"MeasurementTool.circle" = "Circle";
+
+"MeasurementTool.circle.toolTip" = "Circle (3 Points, Calibratable)";
+
+"MeasurementTool.lineSegment" = "Line Segment";
+
+"MeasurementTool.lineSegment.toolTip" = "Line Segment (Calibratable)";
+
+"MeasurementTool.pencil" = "Pencil";
+
+"MeasurementTool.pencil.toolTip" = "Pencil";
+
+"MeasurementTool.polygon" = "Polygon";
+
+"MeasurementTool.polygon.toolTip" = "Polygon";
+
+"MeasurementTool.polyline" = "Polyline";
+
+"MeasurementTool.polyline.toolTip" = "Polyline";
+
+"MeasurementTool.rectangle" = "Rectangle";
+
+"MeasurementTool.rectangle.toolTip" = "Rectangle";
+
+"MeasurementTool.square" = "Square";
+
+"MeasurementTool.square.toolTip" = "Square";
+
+"MeasurementTool.textbox" = "Textbox";
+
+"MeasurementTool.textbox.toolTip" = "Textbox";
+
+"SettingsTab.advanced" = "Advanced";
+
+"SettingsTab.general" = "General";

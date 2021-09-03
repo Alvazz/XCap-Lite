@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  XCap
+
+  Created by chen on 2021/5/22.
+  
+*/
+
+"NSCameraUsageDescription" = "XCap 將取用您的攝影機用以預覽畫面。";
