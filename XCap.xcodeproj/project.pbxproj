@@ -285,7 +285,6 @@
 		85E115352665C83B002A5D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Panel.strings; sourceTree = "<group>"; };
 		85E1153A2665D8BE002A5D2B /* ScaleSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSaveViewController.swift; sourceTree = "<group>"; };
 		85E1153C2665DA0C002A5D2B /* ScaleSavePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSavePanel.swift; sourceTree = "<group>"; };
-		85F54627268F15B2002A163B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		85F5462D268F17EC002A163B /* AVCaptureDevice+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -381,7 +380,6 @@
 				85E9703E26B28FFA00CD6FFF /* Resources */,
 				74859C5E262F478600D73FB1 /* AppDelegate.swift */,
 				85320A8F262FF99D00A538E3 /* AppCoordinator.swift */,
-				85F54627268F15B2002A163B /* Bridging-Header.h */,
 				74859C67262F478900D73FB1 /* Info.plist */,
 				74859C62262F478900D73FB1 /* Assets.xcassets */,
 				85658EA326672FFC00B26070 /* Debug.xcconfig */,
@@ -1094,7 +1092,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scchn.XCap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "XCap/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1121,7 +1118,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scchn.XCap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "XCap/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
